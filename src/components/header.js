@@ -1,6 +1,7 @@
 import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
+import "bootstrap/dist/css/bootstrap.min.css";
 
 const Header = ({ siteTitle }) => (
   <header
@@ -28,7 +29,18 @@ const Header = ({ siteTitle }) => (
         </Link>
       </h1>
     </div>
+    <nav className="navbar navbar-default">
+    <div className="container-fluid">
+    <div className="navbar-header">
+      <a className="navbar-brand" href="#">James McConville</a>
+    </div>
+    <ul className="nav navbar-nav">
+      <li className="active"><a href="#">Home</a></li>
+    </ul>
+  </div> 
+    </nav>
   </header>
+
 )
 
 Header.propTypes = {
