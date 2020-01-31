@@ -4,14 +4,18 @@ date: "2020-01-25"
 title: "Building this blog"
 ---
 
-My first blog post
+After many years of telling myself I'd get around to writing and publishing a blog, I've finally managed it... complacency, of course, is the death 
+of many things so I'm aware the real trick is to keep at it! 
 
-``` cs
-var foo = 5;
-```
+For my first post I decided that I'd write about getting this very blog off the ground.
 
-* Here
-* is
-* a
-    * list
-        * indent
+Requirements for my blog...
+
+* Posts written in markdown
+* No dependency on windows (I'm a .net dev by trade)
+* No Database (or no database server at least)
+* Straightforward deployment
+
+Without boring you with a long analysis, I'll get straight to the point.. I opted to use gatsby and host on netlify.
+
+For the uninitiated, Gatsby is a "framework" (for want of a better term) that uses GraphQL to serve static content from a variety of possible soureces and then uses react on the front end to display it. A more detailed and frnkly better explanation can be found [here]:https://www.mediacurrent.com/what-is-gatsby.js 
